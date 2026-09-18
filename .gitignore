@@ -1,0 +1,36 @@
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ===== JFLAP / временные файлы =====
+*.bak
+*.tmp
+~$*
+
+# ===== Сборка =====
+target/
+build/
+bin/
+.gradle/
+gradle-app.setting
+.gradletasknamecache
+
+# ===== Операционные системы =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE прочее =====
+.vscode/
+*.swp
+*~
