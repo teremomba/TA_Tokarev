@@ -1,0 +1,9 @@
+language	p	w	x	y	z	i	pumped	in_language
+a^n : n is even	2	aaaa		aa	aa	0	aa	true
+a^n : n is even	2	aaaa		aa	aa	1	aaaa	true
+a^n : n is even	2	aaaa		aa	aa	2	aaaaaa	true
+a^n : n is even	2	aaaa		aa	aa	3	aaaaaaaa	true
+a^n b^n : n >= 0	4	aaaabbbb	a	a	aabbbb	0	aaabbbb	false
+a^n b^n : n >= 0	4	aaaabbbb	a	a	aabbbb	1	aaaabbbb	true
+a^n b^n : n >= 0	4	aaaabbbb	a	a	aabbbb	2	aaaaabbbb	false
+a^n b^n : n >= 0	4	aaaabbbb	a	a	aabbbb	3	aaaaaabbbb	false

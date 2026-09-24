@@ -1,0 +1,7 @@
+PR2, variant 3. JFLAP 7.1 native API verification. Date: 2026-09-24.
+Native RE -> NFA: 9 completed steps, 42 states, 47 transitions.
+Native grammar NFA -> RE: 6 state eliminations; expression=λ+a+aa+aaa+b+ab+aab+aaab+(b+ab+aab+aaab)b+(b+ab+aab+aaab)bb
+Language checks: 2047 words of length 0..10, 5 automata and grammar, zero mismatches.
+Intermediate generalized graphs: 17, 4335 RE-semantics checks, zero mismatches.
+Native JFLAP pumping trainer: 2 examples, i=0..3, all expected results confirmed.
+L29 illustration: 4960 valid splits for p=1..30, pumping i=2 leaves the language (not a substitute for the proof).
